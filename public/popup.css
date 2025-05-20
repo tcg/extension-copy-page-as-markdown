@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #333;
+  min-width: 250px;
+}
+
+h1 {
+  color: #0056b3;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group label {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+
+#copyButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#copyButton:hover {
+  background-color: #0056b3;
+}
+
+#copyButton:active {
+  background-color: #004085;
+}
+
+#feedback {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+/* Basic toggle switch styling (optional, can be more complex) */
+input[type="checkbox"] {
+  cursor: pointer;
+}

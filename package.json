@@ -1,0 +1,15 @@
+{
+    "name": "extension-copy-page-as-markdown",
+    "scripts": {
+        "dev": "vite build --watch",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.323",
+        "typescript": "^5.0.0",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "node-html-markdown": "^1.3.0"
+    }
+}
